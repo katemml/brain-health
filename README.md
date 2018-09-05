@@ -96,6 +96,21 @@ Causal adverbials specify the reason for an action.
 Manner modifiers indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
 
 
+## Chapter 2 Entity Attribute Annotation Instruction   
+We define the following attribute types : Abstract, Disfluency, External, Opinion, Possessive, Subset  
+#### 2.1 Abstract
+Commmonly appeared examples: something, one
+#### 2.2 Disfluency
+Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
+#### 2.3 External
+#### 2.4 Opinion
+1. subjective adjectives (fancy, bored, beautiful, normal,etc)
+2. descriptive clauses that contain the word "like" (dressed up in a human -> human is opinion, dressed up like a millionaire)
+3. sentences with hint words at the front (In my experience, as far as i can see, it is obvious that, etc)  
+
+#### 2.5 Possessive
+Show ownership by adding an apostrophe, an 's' or both.
+#### 2.6 Subset
 
 
 
