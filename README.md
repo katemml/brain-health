@@ -39,9 +39,10 @@ NLP research on Alzheimer Disease
 
 ### Chapter 3 --- Relation Annotation Instructions
 
-3.1 Attribute relation.   
-3.2 Agent and Theme Relation.   
-3.3 Adverbial Relation.   
+3.1 Nmod- Entity   
+3.2 Entity – Predicate – Entity (- Entity)
+3.3 Entity – Thematic/Locative -Entity  
+3.4 Predicate - Adverbial   
 
 
 
