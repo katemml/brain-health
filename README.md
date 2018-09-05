@@ -55,8 +55,11 @@ NLP research on Alzheimer Disease
 
 ## Chapter 1 Entity Type Annotation Instructions
 
-### 1.1-1.3 Entity & Clause
-Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. A clause is an entity with modifier as a phrase around it. For example, a person who…
+### 1.1-1.2 Entity & Clause
+Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. A clause is an entity with modifier as a phrase around it. For example, a person who… 
+
+### 1.3 Case   
+Prepositions with no thematic/adverbial role. (See 1.4 and 1.7)
 
 ### 1.4 Adverbial
 Before assuming a modifier is merely adverbial, we first decide if the adverb belongs to any thematic type listed. (See 1.7). Adverbial elements are often:   
