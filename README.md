@@ -156,4 +156,10 @@ Dressed in white
 
 -More Relation    
 
+## Chapter 4 Special Cases
+1. Treat compound nouns as a single entity  
+Ex: Polka dot, Straw hat  
+2. We do not annotate anything that is not related to the picture.   
+
+
 
