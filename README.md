@@ -79,7 +79,7 @@ The two types of predicates we pay special attention to are **Motion** and **Sta
 **Attention: We treat have/hold/dressed up as normal predicates.**
 
 ### 1.7 Thematic
-####1.7.1 Directional
+#### 1.7.1 Directional
 Directional modifiers show motion along some path. For example: step **forward**, walk **along** the river. 
 
 #### 1.7.2 Locative
