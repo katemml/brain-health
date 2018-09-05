@@ -113,7 +113,47 @@ Show ownership by adding an apostrophe, an 's' or both.
 #### 2.6 Subset
 
 
+## Chapter 3 Relation Annotation Instructions     
+### 3.1 Nmod- Entity  
+-Attribute relation  
+Nmod is **Attribute** of Entity    
+Ex: little parade  
+~~~
+R1   attr   Arg1:parade Arg2:little  
+~~~
+**! We treat “with” as attributes**  
+Ex: a clown with makeup. (Makeup is attr of clown)  
+
+### 3.2 Entity – Predicate – Entity (- Entity)  
+-Agent and Theme Relation  
+Ex: the elephant has a hat  
+~~~
+R1   agent  Arg1:has Arg2:elephant	  
+R2   theme  Arg1:has Arg2:hat	  
+~~~
+-Dative Relation  
+refers to indirect object of a verb  
+Ex: I gave him a book  
+~~~
+R1  agent  Arg1:gave Arg2:I  
+R2  theme  Arg1:gave Arg2:book  
+R3  dative  Arg1:I Arg2:him  
+~~~
 
 
+### 3.3 Entity – Thematic/Locative -Entity      
+-Adverbial and Argument Relation   
+Ex: the elephant is on a tricycle    
+~~~
+R1  adv Arg1:elephant  Arg2:on
+R2  arg Arg1:on  Arg2:tricycle
+~~~ 
+### 3.4 Predicate - Adverbial    
+-Manner Relation     
+Coming out/walk together    
+Dressed in white     
+-Purpose Relation     
+
+-More Relation    
 
 
