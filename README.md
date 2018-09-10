@@ -163,7 +163,8 @@ Dressed in white
 ## Chapter 4 Special Cases
 1. Treat compound nouns as a single entity  
 Ex: Polka dot, Straw hat  
-2. We do not annotate anything that is not related to the picture.   
+2. One is holding a fan or umbrella -> treat as two entities.   
+3. We do not annotate anything that is not related to the picture.   
 
 
 
