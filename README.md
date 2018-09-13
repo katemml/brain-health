@@ -43,12 +43,13 @@ NLP research on Alzheimer Disease
 3.2.5 CAU  
 3.2.6 MNR  
 3.2.7 PRP    
-**3.3 More**
+**3.3 Noun**   
+**3.4 Disclosure**
  
 
 
 
-### Chapter 4 --- Special Case Handle.     
+### Chapter 4 --- Special Case Handling.     
 
 
 ## Chapter 0 Introduction
