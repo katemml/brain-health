@@ -34,8 +34,8 @@ NLP research on Alzheimer Disease
 
 
 ### Chapter 3 --- Relation Annotation Instructions
-3.1 Core Argument   
-3.2 Thematic Roles  
+**3.1 Core Argument**    
+**3.2 Thematic Roles**  
 3.2.1 ADV 
 3.2.2 DIR  
 3.2.3 LOC  
@@ -43,7 +43,7 @@ NLP research on Alzheimer Disease
 3.2.5 CAU  
 3.2.6 MNR  
 3.2.7 PRP  
-3.3 More 
+**3.3 More **
  
 
 
