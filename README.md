@@ -10,7 +10,7 @@ NLP research on Alzheimer Disease
 	          	         1.4.1 Certain  
 	          	         1.4.2 Emphasis  
 	          	         1.4.3 Fuzzy  
-				 1.4.4 Case
+				 1.4.4 Case    
 **1.5 Nmod**  
 1.5.1 Color  
 1.5.2 Order  
@@ -32,8 +32,9 @@ NLP research on Alzheimer Disease
 
 3.1 Nmod- Entity   
 3.2 Entity – Predicate – Entity (- Entity)  
-3.3 Entity – Thematic/Locative -Entity  
-3.4 Predicate - Adverbial   
+3.3 Entity – Entity 
+
+3.4 Predicate - Xmod   
 
 
 
