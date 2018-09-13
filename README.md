@@ -6,12 +6,11 @@ NLP research on Alzheimer Disease
 ### Chapter 0 --- Introduction 
 ### Chapter 1 --- Entity Type Annotation Instructions  
 **1.1 Entity**  
-**1.2 Case**   
-**1.3 Clause**     
-**1.4 Adverbial**    
+**1.4 Xmod**    
 	          	         1.4.1 Certain  
 	          	         1.4.2 Emphasis  
-	          	         1.4.3 Fuzzy   
+	          	         1.4.3 Fuzzy  
+				 1.4.4 Case
 **1.5 Nmod**  
 1.5.1 Color  
 1.5.2 Order  
@@ -19,15 +18,7 @@ NLP research on Alzheimer Disease
 1.5.4 Quantity    
 **1.6 Predicates**  
 1.6.1 Motion  
-1.6.2 State  
-**1.7 Thematic**  
-1.7.1 Directional  
-1.7.2 Locative  
-1.7.3 Temporal   
-1.7.4 Causal  
-1.7.5 Manner    
-
-
+ 
 ### Chapter 2 --- Entity Attribute Annotation Instructions  
 2.1 Abstract  
 2.2 Disfluency   
