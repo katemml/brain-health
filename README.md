@@ -17,9 +17,9 @@ NLP research on Alzheimer Disease
 1.3.1 Motion    
 
 **1.4 Xmod**    
-	          	         1.4.1 Certain  
-	          	         1.4.2 Emphasis  
-	          	         1.4.3 Fuzzy  
+	          	 1.4.1 Certain  
+	          	 1.4.2 Emphasis  
+	          	 1.4.3 Fuzzy  
 				 1.4.4 Case    
  
 
@@ -35,7 +35,7 @@ NLP research on Alzheimer Disease
 
 ### Chapter 3 --- Relation Annotation Instructions
 **3.1 Core Argument**   
-agent and theme
+agent, theme, dative  
 **3.2 Thematic Roles**  
 3.2.1 ADV   
 3.2.2 DIR  
@@ -60,14 +60,21 @@ more
 
 ## Chapter 1 Entity Type Annotation Instructions
 
-### 1.1-1.2 Entity & Clause
-Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. A clause is an entity with modifier as a phrase around it. For example, a person who… 
+### 1.1 Entity 
+Entities are real life objects in the picture, commonly noun phrases. We omit articles in our annotation. Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. 
 
-### 1.3 Case   
-Prepositions with no thematic/adverbial role. (See 1.4 and 1.7)
+### 1.2 Nmod
+Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Nmod is the class of adjective modifiers. Most common types of adjectives appeared are **Color / Order / Size / Quantity**.  
+Examples of the ‘**Order**’ adjectives: first, the other, another….   
+**Note**: sometimes compound nouns can function as modifier as well. Ex: a polka dot dress.    
 
-### 1.4 Adverbial
-Before assuming a modifier is merely adverbial, we first decide if the adverb belongs to any thematic type listed. (See 1.7). Adverbial elements are often:   
+
+### 1.3 Predicate
+Predicate is the part of a sentence that tells what the subject does. We only annotate one word which is the verb. We omit the auxiliary verbs(am, is are). One type of predicates we pay special attention to is **Motion**. For motion verbs, this [paper](http://elies.rediris.es/elies11/cap61.htm ) is good reference. However, the most common ones in the texts are ‘march, ride, walk’.   
+**Attention: We treat have/hold/dressed up as normal predicates.**  
+
+### 1.4 Xmod
+Xmod is the class of adverbial modifiers  
 1.	Temporally related(modifiers of events): treasures are just lying around, **waiting to be found**    
 2.	Intentional (modifiers of propositions):  
 Probably, likely -> **fuzzy**    
@@ -75,38 +82,13 @@ Must -> **certain**.
 Very, clearly, really, definitely, absolutely -> **emphasis**    
 3.	Focus-sensitive: only, even   
 4.	Sentential (evaluative, attitudinal):fortunately, legally, frankly speaking, clauses beginning with given that, despite, except for or if. 
+5. Case  
 
-### 1.5 Nmod
-Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Because we already have the entity type ‘adverbial’, we primarily focus on adjectives. Most common types of adjectives appeared are **Color / Order / Size / Quantity**.  
-Examples of the ‘**Order**’ adjectives: first, the other, another….   
-**Note**: sometimes compound nouns can function as modifier as well. Ex: a polka dot dress.   
-
-
-### 1.6 Predicate
-The two types of predicates we pay special attention to are **Motion** and **State** predicates. For motion verbs, this [paper](http://elies.rediris.es/elies11/cap61.htm ) is good reference. However, the most common ones in the texts are ‘march, ride, walk’. And [here](https://www.gingersoftware.com/content/grammar-rules/verbs/stative-verbs/) is a list of state verbs.   
-**Attention: We treat have/hold/dressed up as normal predicates.**
-
-### 1.7 Thematic
-#### 1.7.1 Directional
-Directional modifiers show motion along some path. For example: step **forward**, walk **along** the river. 
-
-#### 1.7.2 Locative
-Locative modifiers indicate where some action takes place. Both physical location and abstract locations are marked as locative. 
-
-#### 1.7.3 Temporal
-Temporal words show when an action takes place. Also included in this category are adverbs of frequency: **always, often**, adverbs of duration: **for a year**. 
-
-
-#### 1.7.4 Causal
-Causal adverbials specify the reason for an action. 
- 
- 
-#### 1.7.5 Manner
-Manner modifiers indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
 
 
 ## Chapter 2 Entity Attribute Annotation Instruction   
 We define the following attribute types : Abstract, Disfluency, External, Opinion, Possessive, Subset  
+
 #### 2.1 Abstract
 Commmonly appeared examples: something, one
 #### 2.2 Disfluency
@@ -123,17 +105,8 @@ Show ownership by adding an apostrophe, an 's' or both.
 
 
 ## Chapter 3 Relation Annotation Instructions     
-### 3.1 Nmod- Entity  
--Attribute relation  
-Nmod is **Attribute** of Entity    
-Ex: little parade  
-~~~
-R1   attr   Arg1:parade Arg2:little  
-~~~
-**! We treat “with” as attributes**  
-Ex: a clown with makeup. (Makeup is attr of clown)  
-
-### 3.2 Entity – Predicate – Entity (- Entity)  
+### 3.1 Core Argument
+Entity – Predicate – Entity (- Entity)  
 -Agent and Theme Relation  
 Ex: the elephant has a hat  
 ~~~
@@ -149,6 +122,42 @@ R2  theme  Arg1:gave Arg2:book
 R3  dative  Arg1:I Arg2:him  
 ~~~
 
+### 3.2 Thematic Roles
+#### 3.2.1 (DIR)Directional
+Directional modifiers show motion along some path. For example: step **forward**, walk **along** the river. 
+
+#### 3.2.2 (LOC)Locative
+Locative modifiers indicate where some action takes place. Both physical location and abstract locations are marked as locative. 
+
+#### 3.2.3 (TMP)Temporal
+Temporal words show when an action takes place. Also included in this category are adverbs of frequency: **always, often**, adverbs of duration: **for a year**. 
+
+
+#### 3.2.4 (CAU)Causal
+Causal adverbials specify the reason for an action. Canonical cause clauses start with 'because'. 
+ 
+ 
+#### 3.2.5 (MNR)Manner
+Manner modifiers indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
+
+### 3.2.6 (PRP)Purpose  
+Explains the motivation for some action. Clauses beginning with 'in order to' and 'so that' are common purpose clause.
+
+### 3.2.7 (ADV)Adverbial
+
+
+### 3.3 Noun   
+Nmod- Entity  
+-Attribute relation  
+Nmod is **Attribute** of Entity    
+Ex: little parade  
+~~~
+R1   attr   Arg1:parade Arg2:little  
+~~~
+**! We treat “with” as attributes**  
+Ex: a clown with makeup. (Makeup is attr of clown)  
+
+
 
 ### 3.3 Entity – Thematic/Locative -Entity      
 -Adverbial and Argument Relation   
@@ -158,7 +167,7 @@ R1  adv Arg1:elephant  Arg2:on
 R2  arg Arg1:on  Arg2:tricycle
 ~~~ 
 ### 3.4 Predicate - Adverbial    
--Manner Relation     
+    
 Coming out/walk together    
 Dressed in white     
 -Purpose Relation     
