@@ -124,10 +124,10 @@ R3  dative  Arg1:I Arg2:him
 
 ### 3.2 Thematic Roles
 #### 3.2.1 (DIR)Directional
-Directional modifiers show motion along some path. For example: step **forward**, walk **along** the river. 
+Directional relations show motion along some path. For example: step **forward**, walk **along** the river. 
 
 #### 3.2.2 (LOC)Locative
-Locative modifiers indicate where some action takes place. Both physical location and abstract locations are marked as locative. 
+Locative relations indicate where some action takes place. Both physical location and abstract locations are marked as locative. 
 
 #### 3.2.3 (TMP)Temporal
 Temporal words show when an action takes place. Also included in this category are adverbs of frequency: **always, often**, adverbs of duration: **for a year**. 
@@ -138,13 +138,13 @@ Causal adverbials specify the reason for an action. Canonical cause clauses star
  
  
 #### 3.2.5 (MNR)Manner
-Manner modifiers indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
+Manner relations indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
 
 #### 3.2.6 (PRP)Purpose  
 Explains the motivation for some action. Clauses beginning with 'in order to' and 'so that' are common purpose clause.
 
 #### 3.2.7 (ADV)Adverbial
-
+Usually between Xmod and predicates. 
 
 ### 3.3 Noun   
 Nmod- Entity  
