@@ -140,10 +140,10 @@ Causal adverbials specify the reason for an action. Canonical cause clauses star
 #### 3.2.5 (MNR)Manner
 Manner modifiers indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
 
-### 3.2.6 (PRP)Purpose  
+#### 3.2.6 (PRP)Purpose  
 Explains the motivation for some action. Clauses beginning with 'in order to' and 'so that' are common purpose clause.
 
-### 3.2.7 (ADV)Adverbial
+#### 3.2.7 (ADV)Adverbial
 
 
 ### 3.3 Noun   
@@ -159,20 +159,7 @@ Ex: a clown with makeup. (Makeup is attr of clown)
 
 
 
-### 3.3 Entity – Thematic/Locative -Entity      
--Adverbial and Argument Relation   
-Ex: the elephant is on a tricycle    
-~~~
-R1  adv Arg1:elephant  Arg2:on
-R2  arg Arg1:on  Arg2:tricycle
-~~~ 
-### 3.4 Predicate - Adverbial    
-    
-Coming out/walk together    
-Dressed in white     
--Purpose Relation     
 
--More Relation    
 
 ## Chapter 4 Special Cases
 1. Treat compound nouns as a single entity  
