@@ -63,6 +63,7 @@ more
 ### 1.1 Entity 
 Entities are real life objects in the picture, commonly noun phrases. We omit articles in our annotation. Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. 
 
+![alt tag](https://user-images.githubusercontent.com/35633621/46028721-57da2200-c0bf-11e8-8591-b66592956997.png)
 ### 1.2 Nmod
 Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Nmod is the class of adjective modifiers. Most common types of adjectives appeared are **Color / Order / Size / Quantity**.  
 Examples of the ‘**Order**’ adjectives: first, the other, another….   
@@ -108,11 +109,9 @@ Show ownership by adding an apostrophe, an 's' or both.
 ### 3.1 Core Argument
 Entity – Predicate – Entity (- Entity)  
 -Agent and Theme Relation  
-Ex: the elephant has a hat  
-~~~
-R1   agent  Arg1:has Arg2:elephant	  
-R2   theme  Arg1:has Arg2:hat	  
-~~~
+Ex: I see the elephant riding a bike.   
+![alt tag](https://user-images.githubusercontent.com/35633621/46028633-1fd2df00-c0bf-11e8-9b48-f671b7864bdf.png)
+
 -Dative Relation  
 refers to indirect object of a verb  
 Ex: I gave him a book  
