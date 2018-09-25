@@ -115,11 +115,7 @@ Ex: I see the elephant riding a bike.
 -Dative Relation  
 refers to indirect object of a verb  
 Ex: I gave him a book  
-~~~
-R1  agent  Arg1:gave Arg2:I  
-R2  theme  Arg1:gave Arg2:book  
-R3  dative  Arg1:I Arg2:him  
-~~~
+
 
 ### 3.2 Thematic Roles
 #### 3.2.1 (DIR)Directional
@@ -149,10 +145,9 @@ Usually between Xmod and predicates.
 Nmod- Entity  
 -Attribute relation  
 Nmod is **Attribute** of Entity    
-Ex: little parade  
-~~~
-R1   attr   Arg1:parade Arg2:little  
-~~~
+Ex: two women 
+![alt tag] (https://user-images.githubusercontent.com/35633621/46028847-a25b9e80-c0bf-11e8-8430-c750bd2f3d6b.png)
+
 **! We treat “with” as attributes**  
 Ex: a clown with makeup. (Makeup is attr of clown)  
 
