@@ -146,7 +146,7 @@ Nmod- Entity
 -Attribute relation  
 Nmod is **Attribute** of Entity    
 Ex: two women    
-![alt tag] (https://user-images.githubusercontent.com/35633621/46028847-a25b9e80-c0bf-11e8-8430-c750bd2f3d6b.png)
+![alt tag](https://user-images.githubusercontent.com/35633621/46028847-a25b9e80-c0bf-11e8-8430-c750bd2f3d6b.png)
 
 **! We treat “with” as attributes**  
 Ex: a clown with makeup. (Makeup is attr of clown)  
