@@ -61,7 +61,7 @@ more
 ## Chapter 1 Entity Type Annotation Instructions
 
 ### 1.1 Mention 
-Mentions are real life objects appeared in the picture, commonly noun phrases. We omit articles in our annotation. Mentions are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript.   
+Mentions are real life objects appeared in the picture, commonly noun phrases. We omit articles in our annotation. Mentions are classified into two general types---known and unknown. Known mentions are things that constantly appear in each transcript.   
 Here is the list of known mentions:   
 ``` 
 * copyright 
@@ -120,7 +120,7 @@ have, hold, dressed up
 ### 1.4 Xmod
 Xmod is the class of any other types of modifiers including adverbials. 
 
-1.	Temporally related (modifiers of events): 
+1.	Temporally related(modifiers of events): 
 ```
 I stood there, waiting for the bus. 
 ``` 
@@ -131,11 +131,11 @@ I stood there, waiting for the bus.
 ```
   probably, likely 
 ```  
- **- Certain**:  
+   **- Certain**:  
 ```
   must
 ```    
- **- Emphasis**:  
+   **- Emphasis** :  
 ```
   very, clearly, really, definitely, absolutely
 ```   
