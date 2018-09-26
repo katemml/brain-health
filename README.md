@@ -62,7 +62,7 @@ more
 ### 1.1 Mention 
 Mentions are real life objects appeared in the picture, commonly noun phrases. We omit articles in our annotation. Mentions are classified into two general types---known and unknown. Known mentions are things that constantly appear in each transcript.   
 Here is the list of known mentions:   
-``` 
+
 * copyright 
 * picture 
 * title  
@@ -77,7 +77,7 @@ Here is the list of known mentions:
 * fan      
 * flag   
 * tricycle     
-```
+
 
 Example for unknown mentions: 
 ```
