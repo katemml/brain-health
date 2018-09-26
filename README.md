@@ -5,7 +5,7 @@ NLP research on Alzheimer Disease
 
 ### Chapter 0 --- Introduction 
 ### Chapter 1 --- Entity Type Annotation Instructions  
-**1.1 Entity**  
+**1.1 Mention**  
 
 **1.2 Nmod**  
 1.2.1 Color  
@@ -60,22 +60,65 @@ more
 
 ## Chapter 1 Entity Type Annotation Instructions
 
-### 1.1 Entity 
-Entities are real life objects in the picture, commonly noun phrases. We omit articles in our annotation. Entities are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript. For example, elephants, clown and tricycle. 
+### 1.1 Mention 
+Mentions are real life objects appeared in the picture, commonly noun phrases. We omit articles in our annotation. Mentions are classified into two general types---known and unknown. Known entities are things that constantly appear in each transcript.   
+Here is the list of known mentions:   
+``` 
+* copyright 
+* picture 
+* title  
+* clown.   
+* elephant_l  
+* elephant_r    
+* man_l   
+* man_m    
+* man_r    
+* men   
+* cane    
+* fan      
+* flag   
+* tricycle     
+```
 
-![alt tag](https://user-images.githubusercontent.com/35633621/46028721-57da2200-c0bf-11e8-8591-b66592956997.png)
+Example for unknown mentions: 
+```
+necktie, stripe, umbrella.  
+```
+
+Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  
+Example: 
+```
+hats with feathers on them. 
+```   
+Here 'hats' and 'them' are coreferenced. 
+
+
 ### 1.2 Nmod
 Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Nmod is the class of adjective modifiers. Most common types of adjectives appeared are **Color / Order / Size / Quantity**.  
-Examples of the ‘**Order**’ adjectives: first, the other, another….   
-**Note**: sometimes compound nouns can function as modifier as well. Ex: a polka dot dress.    
 
+Examples of the ‘**Order**’ adjectives:   
+```
+first, the other, another….     
+```
+**Note**: sometimes compound nouns can function as modifier as well.  
+Ex:  
+```
+ a polka dot dress.    
+``` 
 
 ### 1.3 Predicate
-Predicate is the part of a sentence that tells what the subject does. We only annotate one word which is the verb. We omit the auxiliary verbs(am, is are). One type of predicates we pay special attention to is **Motion**. For motion verbs, this [paper](http://elies.rediris.es/elies11/cap61.htm ) is good reference. However, the most common ones in the texts are ‘march, ride, walk’.   
-**Attention: We treat have/hold/dressed up as normal predicates.**  
+Predicate is the part of a sentence that tells what the subject does. We only annotate one word which is usually the verb. We omit the auxiliary verbs(am, is are). One type of predicates we pay special attention to is **Motion**. For motion verbs, this [paper](http://elies.rediris.es/elies11/cap61.htm ) is good reference.  
+Examples of motion predicates:
+```
+march, ride, walk
+``` 
+Examples of normal predicates:  
+```
+have, hold, dressed up   
+```
 
 ### 1.4 Xmod
-Xmod is the class of adverbial modifiers  
+Xmod is the class of any other types of modifiers including adverbials.  
 1.	Temporally related(modifiers of events): treasures are just lying around, **waiting to be found**    
 2.	Intentional (modifiers of propositions):  
 Probably, likely -> **fuzzy**    
