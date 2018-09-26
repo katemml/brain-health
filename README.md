@@ -27,10 +27,9 @@ NLP research on Alzheimer Disease
 ### Chapter 2 --- Entity Attribute Annotation Instructions  
 2.1 Abstract  
 2.2 Disfluency   
-2.3 External  
-2.4 Opinion   
-2.5 Possessive  
-2.6 Subset
+2.3 Opinion   
+2.4 Possessive  
+2.5 Subset
 
 
 ### Chapter 3 --- Relation Annotation Instructions
@@ -85,7 +84,7 @@ Example for unknown mentions:
 necktie, stripe, umbrella    
 ```
 
-Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  
+Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  See 3.3.2 Coreference relation. 
 Example: 
 ```
 hats with feathers on them 
@@ -127,8 +126,8 @@ I stood there, waiting for the bus.
 'waiting for the bus' is Xmod.  
 
 2.	Intentional (modifiers of propositions): 
- 
-   **- Fuzzy**:    
+
+ **- Fuzzy**:    
 ```
   probably, likely 
 ```  
@@ -149,7 +148,10 @@ only, even
 fortunately, legally, frankly speaking, clauses beginning with given that, despite, except for or if. 
 ```
 5. Case  
-
+Prepositions that have thematic role. 
+```
+walk on two legs, have a hat on, a tail coming out 
+```
 
 
 ## Chapter 2 Entity Attribute Annotation Instruction   
@@ -161,41 +163,45 @@ something, one
 ```
 #### 2.2 Disfluency
 Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
-#### 2.3 External
-#### 2.4 Opinion
+
+#### 2.3 Opinion
 1. subjective adjectives 
 ```
 fancy, bored, beautiful, normal
 ```
 2. descriptive clauses that contain the word "like" 
 ```
-dressed up in a human
+dressed up in a human, dressed up like a millionaire
 ```
-here human is opinion.
-```
- dressed up like a mi
- llionaire
- ```
+here human (millionaire) is opinion.
+
 3. sentences with hint words at the front 
 ```
 In my experience, as far as i can see, it is obvious that
 ```
 
-#### 2.5 Possessive
+#### 2.4 Possessive
 Show ownership by adding an apostrophe, an 's' or both.
-#### 2.6 Subset
+#### 2.5 Subset
+```
+one of them
+```
 
 
 ## Chapter 3 Relation Annotation Instructions     
 ### 3.1 Core Argument
-Entity – Predicate – Entity (- Entity)  
+Entity – Predicate – Mention (- Mention)  
 -Agent and Theme Relation  
 Ex: I see the elephant riding a bike.   
 ![alt tag](https://user-images.githubusercontent.com/35633621/46028633-1fd2df00-c0bf-11e8-9b48-f671b7864bdf.png)
 
 -Dative Relation  
 refers to indirect object of a verb  
-Ex: I gave him a book  
+Ex: I gave him a book.
+```
+I gave him a
+```
+
 
 
 ### 3.2 Thematic Roles
@@ -223,14 +229,25 @@ Explains the motivation for some action. Clauses beginning with 'in order to' an
 Usually between Xmod and predicates. 
 
 ### 3.3 Noun   
-Nmod- Entity  
--Attribute relation  
+Nmod- Mention  
+#### 3.3.1 Attribute relation  
 Nmod is **Attribute** of Entity    
 Ex: two women    
 ![alt tag](https://user-images.githubusercontent.com/35633621/46028847-a25b9e80-c0bf-11e8-8430-c750bd2f3d6b.png)
 
 **! We treat “with” as attributes**  
-Ex: a clown with makeup. (Makeup is attr of clown)  
+```
+a clown with makeup. 
+```
+Makeup is attr of clown
+
+#### 3.3.2 Coreference relation
+```
+He wears a gray hat, with feathers coming out of it.
+```
+Here 'hat' and 'it' are coreference. 
+
+
 
 
 
