@@ -126,8 +126,9 @@ I stood there, waiting for the bus.
 ``` 
 'waiting for the bus' is Xmod.  
 
-2.	Intentional (modifiers of propositions):  
- **- Fuzzy**:    
+2.	Intentional (modifiers of propositions): 
+ 
+   **- Fuzzy**:    
 ```
   probably, likely 
 ```  
@@ -172,7 +173,8 @@ dressed up in a human
 ```
 here human is opinion.
 ```
- dressed up like a millionaire
+ dressed up like a mi
+ llionaire
  ```
 3. sentences with hint words at the front 
 ```
