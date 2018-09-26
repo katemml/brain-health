@@ -82,13 +82,13 @@ Here is the list of known mentions:
 
 Example for unknown mentions: 
 ```
-necktie, stripe, umbrella.   
+necktie, stripe, umbrella    
 ```
 
 Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  
 Example: 
 ```
-hats with feathers on them.  
+hats with feathers on them 
 ```   
 Here 'hats' and 'them' are coreferenced. 
 
@@ -120,24 +120,24 @@ have, hold, dressed up
 ### 1.4 Xmod
 Xmod is the class of any other types of modifiers including adverbials. 
 
-1.	Temporally related(modifiers of events): 
+1.	Temporally related (modifiers of events): 
 ```
 I stood there, waiting for the bus. 
 ``` 
 'waiting for the bus' is Xmod.  
 
 2.	Intentional (modifiers of propositions):  
-**Fuzzy** :    
+ **- Fuzzy**:    
 ```
-probably, likely 
+  probably, likely 
 ```  
-**Certain**:  
+ **- Certain**:  
 ```
-must
+  must
 ```    
-**Emphasis** :  
+ **- Emphasis**:  
 ```
-very, clearly, really, definitely, absolutely
+  very, clearly, really, definitely, absolutely
 ```   
 3.	Focus-sensitive: 
 ```
@@ -155,14 +155,29 @@ fortunately, legally, frankly speaking, clauses beginning with given that, despi
 We define the following attribute types : Abstract, Disfluency, External, Opinion, Possessive, Subset  
 
 #### 2.1 Abstract
-Commmonly appeared examples: something, one
+```
+something, one
+```
 #### 2.2 Disfluency
 Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
 #### 2.3 External
 #### 2.4 Opinion
-1. subjective adjectives (fancy, bored, beautiful, normal,etc)
-2. descriptive clauses that contain the word "like" (dressed up in a human -> human is opinion, dressed up like a millionaire)
-3. sentences with hint words at the front (In my experience, as far as i can see, it is obvious that, etc)  
+1. subjective adjectives 
+```
+fancy, bored, beautiful, normal
+```
+2. descriptive clauses that contain the word "like" 
+```
+dressed up in a human
+```
+here human is opinion.
+```
+ dressed up like a millionaire
+ ```
+3. sentences with hint words at the front 
+```
+In my experience, as far as i can see, it is obvious that
+```
 
 #### 2.5 Possessive
 Show ownership by adding an apostrophe, an 's' or both.
