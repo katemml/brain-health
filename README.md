@@ -82,13 +82,13 @@ Here is the list of known mentions:
 
 Example for unknown mentions: 
 ```
-necktie, stripe, umbrella.  
+necktie, stripe, umbrella.   
 ```
 
 Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  
 Example: 
 ```
-hats with feathers on them. 
+hats with feathers on them.  
 ```   
 Here 'hats' and 'them' are coreferenced. 
 
@@ -98,12 +98,12 @@ Modifiers are said to modify entities and can be removed without affecting the g
 
 Examples of the ‘**Order**’ adjectives:   
 ```
-first, the other, another….     
+first, the other, another      
 ```
 **Note**: sometimes compound nouns can function as modifier as well.  
 Ex:  
 ```
- a polka dot dress.    
+ a polka dot dress    
 ``` 
 
 ### 1.3 Predicate
@@ -118,14 +118,35 @@ have, hold, dressed up
 ```
 
 ### 1.4 Xmod
-Xmod is the class of any other types of modifiers including adverbials.  
-1.	Temporally related(modifiers of events): treasures are just lying around, **waiting to be found**    
+Xmod is the class of any other types of modifiers including adverbials. 
+
+1.	Temporally related(modifiers of events): 
+```
+I stood there, waiting for the bus. 
+``` 
+'waiting for the bus' is Xmod.  
+
 2.	Intentional (modifiers of propositions):  
-Probably, likely -> **fuzzy**    
-Must -> **certain**.     
-Very, clearly, really, definitely, absolutely -> **emphasis**    
-3.	Focus-sensitive: only, even   
-4.	Sentential (evaluative, attitudinal):fortunately, legally, frankly speaking, clauses beginning with given that, despite, except for or if. 
+**Fuzzy** :    
+```
+probably, likely 
+```  
+**Certain**:  
+```
+must
+```    
+**Emphasis** :  
+```
+very, clearly, really, definitely, absolutely
+```   
+3.	Focus-sensitive: 
+```
+only, even  
+``` 
+4.	Sentential (evaluative, attitudinal):
+``` 
+fortunately, legally, frankly speaking, clauses beginning with given that, despite, except for or if. 
+```
 5. Case  
 
 
