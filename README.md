@@ -229,7 +229,7 @@ Explains the motivation for some action. Clauses beginning with 'in order to' an
 Usually between Xmod and predicates. 
 
 Examples in this section:  
-<img src=https://user-images.githubusercontent.com/35633621/46171112-9dd4e880-c26d-11e8-8df8-8419ead136e9.png alt="alt text" width="300" height="480">
+<img src=https://user-images.githubusercontent.com/35633621/46171112-9dd4e880-c26d-11e8-8df8-8419ead136e9.png alt="alt text" width="330" height="480">
 
 ### 3.3 Noun   
 Nmod- Mention  
@@ -240,7 +240,7 @@ Ex: two women
 **! We treat “with” as attributes**  
 
 Examples in this section:  
-<img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="340" height="90">
+<img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="320" height="90">
 
 
 #### 3.3.2 Coreference relation
