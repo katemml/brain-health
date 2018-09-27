@@ -163,6 +163,10 @@ something, one
 ```
 #### 2.2 Disfluency
 Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
+```
+...and both of them, one of them got stripes and has a necktie on
+```
+'both of them' is disfluency.
 
 #### 2.3 Opinion
 1. subjective adjectives 
@@ -198,15 +202,13 @@ Ex: I see the elephant riding a bike.
 -Dative Relation  
 refers to indirect object of a verb  
 Ex: I gave him a book.
-```
-I gave him a
-```
 
+![alt tag]https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png
 
 
 ### 3.2 Thematic Roles
 #### 3.2.1 (DIR)Directional
-Directional relations show motion along some path. For example: step **forward**, walk **along** the river. 
+Directional relations show motion along some path. 
 
 #### 3.2.2 (LOC)Locative
 Locative relations indicate where some action takes place. Both physical location and abstract locations are marked as locative. 
@@ -220,33 +222,32 @@ Causal adverbials specify the reason for an action. Canonical cause clauses star
  
  
 #### 3.2.5 (MNR)Manner
-Manner relations indicate how an action is performed. For example: walk **together**, sing **beautifully**, ran **quickly**. 
-
+Manner relations indicate how an action is performed. 
 #### 3.2.6 (PRP)Purpose  
 Explains the motivation for some action. Clauses beginning with 'in order to' and 'so that' are common purpose clause.
 
 #### 3.2.7 (ADV)Adverbial
 Usually between Xmod and predicates. 
 
+Examples in this section:  
+![alt tag](https://user-images.githubusercontent.com/35633621/46169517-5fd5c580-c269-11e8-98fd-dd576a118be6.png)
+
 ### 3.3 Noun   
 Nmod- Mention  
 #### 3.3.1 Attribute relation  
 Nmod is **Attribute** of Entity    
 Ex: two women    
-![alt tag](https://user-images.githubusercontent.com/35633621/46028847-a25b9e80-c0bf-11e8-8430-c750bd2f3d6b.png)
 
 **! We treat “with” as attributes**  
-```
-a clown with makeup. 
-```
-Makeup is attr of clown
+
+Examples in this section:  
+![alt tag](https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png)
+
 
 #### 3.3.2 Coreference relation
-```
-He wears a gray hat, with feathers coming out of it.
-```
-Here 'hat' and 'it' are coreference. 
-
+Coreference occurs between several mentions when they all refer to the same object. 
+Example:
+![alt tag]https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png
 
 
 
