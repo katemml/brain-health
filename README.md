@@ -202,7 +202,7 @@ Ex: I see the elephant riding a bike.
 -Dative Relation  
 refers to indirect object of a verb  
 Ex: I gave him a book.   
-<img src=https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png alt="alt text" width="260" height="40">
+<img src=https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png alt="alt text" width="260" height="50">
 
 
 ### 3.2 Thematic Roles
