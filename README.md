@@ -44,7 +44,7 @@ agent, theme, dative
 3.2.6 MNR  
 3.2.7 PRP    
 **3.3 Noun**   
-attribute
+attribute   
 **3.4 Disclosure**   
 more
 
@@ -233,7 +233,7 @@ Examples in this section:
 
 ### 3.3 Noun   
 Nmod- Mention  
-#### 3.3.1 Attribute relation  
+#### 3.3.1 'Attribute' relation  
 Nmod is **Attribute** of Entity    
 Ex: two women    
 
@@ -243,10 +243,17 @@ Examples in this section:
 <img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="320" height="90">
 
 
-#### 3.3.2 Coreference relation
+#### 3.3.2 'Coreference' relation
 Coreference occurs between several mentions when they all refer to the same object. 
 Example:
 <img src=https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png alt="alt text" width="300" height="48">
+
+### 3.4 Disclosure
+Mention - Mention
+#### 'More' relation
+We say there is a 'more' relation when a mention repeatly occurs in one sentence, usually adding more information to the mention.  
+Example:
+
 
 
 
