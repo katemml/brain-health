@@ -197,7 +197,7 @@ one of them
 Entity – Predicate – Mention (- Mention)  
 -Agent and Theme Relation  
 Ex: I see the elephant riding a bike.      
-<img src="https://user-images.githubusercontent.com/35633621/46028633-1fd2df00-c0bf-11e8-9b48-f671b7864bdf.png" alt="alt text" width="300" height="60">
+<img src="https://user-images.githubusercontent.com/35633621/46171353-484d0b80-c26e-11e8-8b1b-cb423b27e5a5.png" alt="alt text" width="300" height="60">
 
 -Dative Relation  
 refers to indirect object of a verb  
