@@ -253,9 +253,7 @@ Mention - Mention
 #### 'More' relation
 We say there is a 'more' relation when a mention repeatly occurs in one sentence, usually adding more information to the mention.  
 Example:
-
-
-
+<img src=https://user-images.githubusercontent.com/35633621/46172663-1047c780-c272-11e8-8ffa-0ca3f5787e02.png alt="alt text" width="330" height="48">
 
 
 
