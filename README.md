@@ -203,7 +203,7 @@ Ex: I see the elephant riding a bike.
 refers to indirect object of a verb  
 Ex: I gave him a book.
 
-![alt tag]https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png
+![alt tag](https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png)
 
 
 ### 3.2 Thematic Roles
@@ -247,7 +247,7 @@ Examples in this section:
 #### 3.3.2 Coreference relation
 Coreference occurs between several mentions when they all refer to the same object. 
 Example:
-![alt tag]https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png
+![alt tag](https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png)
 
 
 
