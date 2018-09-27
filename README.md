@@ -240,7 +240,7 @@ Ex: two women
 **! We treat “with” as attributes**  
 
 Examples in this section:  
-<img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="320" height="90">
+<img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="340" height="90">
 
 
 #### 3.3.2 Coreference relation
