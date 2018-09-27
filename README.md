@@ -196,14 +196,13 @@ one of them
 ### 3.1 Core Argument
 Entity – Predicate – Mention (- Mention)  
 -Agent and Theme Relation  
-Ex: I see the elephant riding a bike.   
-![alt tag](https://user-images.githubusercontent.com/35633621/46028633-1fd2df00-c0bf-11e8-9b48-f671b7864bdf.png)
+Ex: I see the elephant riding a bike.      
+<img src="https://user-images.githubusercontent.com/35633621/46028633-1fd2df00-c0bf-11e8-9b48-f671b7864bdf.png" alt="alt text" width="300" height="60">
 
 -Dative Relation  
 refers to indirect object of a verb  
-Ex: I gave him a book.
-
-![alt tag](https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png)
+Ex: I gave him a book.   
+<img src=https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png alt="alt text" width="300" height="60">
 
 
 ### 3.2 Thematic Roles
@@ -230,7 +229,7 @@ Explains the motivation for some action. Clauses beginning with 'in order to' an
 Usually between Xmod and predicates. 
 
 Examples in this section:  
-![alt tag](https://user-images.githubusercontent.com/35633621/46169517-5fd5c580-c269-11e8-98fd-dd576a118be6.png)
+<img src=https://user-images.githubusercontent.com/35633621/46169517-5fd5c580-c269-11e8-98fd-dd576a118be6.png alt="alt text" width="300" height="500">
 
 ### 3.3 Noun   
 Nmod- Mention  
@@ -241,13 +240,13 @@ Ex: two women
 **! We treat “with” as attributes**  
 
 Examples in this section:  
-![alt tag](https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png)
+<img src=https://user-images.githubusercontent.com/35633621/46169535-6b28f100-c269-11e8-8afd-2357b5417bdf.png alt="alt text" width="300" height="80">
 
 
 #### 3.3.2 Coreference relation
 Coreference occurs between several mentions when they all refer to the same object. 
 Example:
-![alt tag](https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png)
+<img src=https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png alt="alt text" width="300" height="48">
 
 
 
