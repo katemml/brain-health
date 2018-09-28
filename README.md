@@ -88,8 +88,9 @@ Note, coreference occurs when two or more expressions in the text refer to the s
 Example: 
 ```
 hats with feathers on them 
+> Here 'hats' and 'them' are coreferenced. 
 ```   
-Here 'hats' and 'them' are coreferenced. 
+
 
 
 ### 1.2 Nmod
@@ -103,6 +104,7 @@ first, the other, another
 Ex:  
 ```
  a polka dot dress    
+ > Here 'polka dot' is Xmod.
 ``` 
 
 ### 1.3 Predicate
@@ -259,8 +261,10 @@ Example:
 
 
 ## Chapter 4 Special Cases
-1. Treat compound nouns as a single entity  
-Ex: Polka dot, Straw hat  
+1. Treat compound nouns as a single mention  
+```
+Polka dot, Straw hat, face makeup 
+```
 2. One is holding a fan or umbrella -> treat as two entities.   
 3. We do not annotate anything that is not related to the picture.   
 
