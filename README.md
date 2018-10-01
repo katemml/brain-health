@@ -45,7 +45,7 @@ agent, theme, dative
 3.2.7 PRP    
 **3.3 Noun**   
 attribute   
-**3.4 Disclosure**   
+**3.4 Discourse**   
 more
 
 
@@ -121,13 +121,7 @@ have, hold, dressed up
 ### 1.4 Xmod
 Xmod is the class of any other types of modifiers including adverbials. 
 
-1.	Temporally related(modifiers of events): 
-```
-I stood there, waiting for the bus. 
-``` 
-'waiting for the bus' is Xmod.  
-
-2.	Intentional (modifiers of propositions): 
+1.	Intentional (modifiers of propositions): 
 
  **- Fuzzy**:    
 ```
@@ -141,15 +135,15 @@ I stood there, waiting for the bus.
 ```
   very, clearly, really, definitely, absolutely
 ```   
-3.	Focus-sensitive: 
+2.	Focus-sensitive: 
 ```
 only, even  
 ``` 
-4.	Sentential (evaluative, attitudinal):
+3.	Sentential (evaluative, attitudinal):
 ``` 
 fortunately, legally, frankly speaking, clauses beginning with given that, despite, except for or if. 
 ```
-5. Case  
+4. Case  
 Prepositions that have thematic role. 
 ```
 walk on two legs, have a hat on, a tail coming out 
@@ -163,12 +157,24 @@ We define the following attribute types : Abstract, Disfluency, External, Opinio
 ```
 something, one
 ```
+If we got information about this abstract mention from its context, for example
+```
+One elephant is riding the tricycle and the other one is walking behind him.
+> Here 'one' is annotated as the known mention 'Elephant_R', with attribute 'abstract'.
+```
+
+If we don't get any information about the mention from the context, for example
+```
+The clown is holding something in the hand.
+> Here 'something' is annotated as an unknown mention.
+```
 #### 2.2 Disfluency
 Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
 ```
 ...and both of them, one of them got stripes and has a necktie on
+> 'both of them' is disfluency.
 ```
-'both of them' is disfluency.
+
 
 #### 2.3 Opinion
 1. subjective adjectives 
@@ -178,8 +184,8 @@ fancy, bored, beautiful, normal
 2. descriptive clauses that contain the word "like" 
 ```
 dressed up in a human, dressed up like a millionaire
+> Here human (millionaire) is opinion.
 ```
-here human (millionaire) is opinion.
 
 3. sentences with hint words at the front 
 ```
@@ -188,6 +194,9 @@ In my experience, as far as i can see, it is obvious that
 
 #### 2.4 Possessive
 Show ownership by adding an apostrophe, an 's' or both.
+```
+the elephant's, its
+```
 #### 2.5 Subset
 ```
 one of them
@@ -250,7 +259,7 @@ Coreference occurs between several mentions when they all refer to the same obje
 Example:
 <img src=https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png alt="alt text" width="300" height="48">
 
-### 3.4 Disclosure
+### 3.4 Discourse
 Mention - Mention
 #### 'More' relation
 We say there is a 'more' relation when a mention repeatly occurs in one sentence, usually adding more information to the mention.  
@@ -260,13 +269,27 @@ Example:
 
 
 
-## Chapter 4 Special Cases
-1. Treat compound nouns as a single mention  
+## Chapter 4 Special Cases Handling
+- Treat compound nouns as a single mention  
 ```
 Polka dot, Straw hat, face makeup 
 ```
-2. One is holding a fan or umbrella -> treat as two entities.   
-3. We do not annotate anything that is not related to the picture.   
+  
+- We do not annotate anything that is not related to the picture.     
+- When a sentence appears as imcomplete, we only annotate the 'Mention' in the sentence. 
+- Way of handling relative clauses, adverbial clauses:  
+	We diregard the connection words (which, that), treat the clause as a separate sentence with the same object, and annotate the relations as usual. 
+	
+	```
+	I was standing there, waiting for the bus.
+	```
+
+	```
+	I met the man whom I talked to yesterday. 
+	```
+
+- Diregard anything after 'I don't know..', 'I cannot describe...'
+
 
 
 
