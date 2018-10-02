@@ -254,8 +254,9 @@ refers to indirect object of a verb
 Ex: I gave him a book.   
 <img src=https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png alt="alt text" width="260" height="50">
 
-* Handling sentences in passive voice. 
+* Handling sentences in passive voice.      
 Ex: The photo was taken in early 1900s.
+
 
 
 
@@ -300,7 +301,8 @@ Examples in this section:
 #### 3.3.2 'Coreference' relation
 Coreference occurs between several mentions when they all refer to the same object. 
 Example:
-<img src=https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png alt="alt text" width="300" height="48">
+<img src=https://user-images.githubusercontent.com/35633621/46169841-2a7da780-c26a-11e8-9998-63f2931736b4.png alt="alt text" width="300" height="48">   
+
 
 ### 3.4 Discourse
 Mention - Mention
@@ -323,8 +325,8 @@ polka dot, straw hat, face makeup
 - Way of handling relative clauses, adverbial clauses:  
 	We diregard the connection words (which, that), treat the clause as a separate sentence with the same object, and annotate the relations as usual. 
 	```
-	I was standing there, waiting for the bus.
-	```
+	I was standing there, waiting for the bus. 
+<img src=https://user-images.githubusercontent.com/35633621/46362753-21605200-c63f-11e8-896e-a5807ca5286c.png alt="alt text" width="260" height="50">	```
 
 
 - Diregard anything after 'I don't know..', 'I cannot describe...'
