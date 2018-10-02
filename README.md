@@ -83,6 +83,12 @@ Example for unknown mentions:
 ```
 necktie, stripe, umbrella    
 ```
+If the mention in the text refer to the same thing in the known mentions list above, we annotate them as known mention. 
+Ex:
+```
+minstrels, soldiers > men
+bicycle > tricycle
+```
 
 Note, coreference occurs when two or more expressions in the text refer to the same person or thing.  See 3.3.2 Coreference relation. 
 Example: 
@@ -94,28 +100,41 @@ hats with feathers on them
 
 
 ### 1.2 Nmod
-Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Nmod is the class of adjective modifiers. Most common types of adjectives appeared are **Color / Order / Size / Quantity**.  
+Modifiers are said to modify entities and can be removed without affecting the grammar of the sentence. Most common types of Nmods appeared are **Color / Order / Size / Quantity**.  
 
 Examples of the ‘**Order**’ adjectives:   
 ```
-first, the other, another      
+the first man, the other elephant
+> Here 'first' and 'other' are 'Order' Nmods.      
 ```
-**Note**: sometimes compound nouns can function as modifier as well.  
+
+- Besides numbers, some descriptive phrases can also be '**Quantity**' modifiers.
+```
+a bouquet of flowers.
+> 'a bouquet of' is 'Quantity' Nmods.
+```
+
+- Sometimes compound nouns can function as modifier as well.  
 Ex:  
 ```
  a polka dot dress    
- > Here 'polka dot' is Xmod.
+ > Here 'polka dot' is Nmod.
 ``` 
+- Other examples of Nmod
+```
+striped pant, a variety of characters, diamond shape pattern, side leg
+> Here 'striped', 'a variety of', 'diamond shape', 'side' are Nmods.
+```
 
 ### 1.3 Predicate
 Predicate is the part of a sentence that tells what the subject does. We only annotate one word which is usually the verb. We omit the auxiliary verbs(am, is are). One type of predicates we pay special attention to is **Motion**. For motion verbs, this [paper](http://elies.rediris.es/elies11/cap61.htm ) is good reference.  
 Examples of motion predicates:
 ```
-march, ride, walk
+march, ride, walk, go, wave, peddle, operate, drive, follow, dance
 ``` 
 Examples of normal predicates:  
 ```
-have, hold, dressed up   
+have, hold, carry, dressed up, stand 
 ```
 
 ### 1.4 Xmod
@@ -125,7 +144,7 @@ Xmod is the class of any other types of modifiers including adverbials.
 
  **- Fuzzy**:    
 ```
-  probably, likely 
+  probably, likely, it could be
 ```  
    **- Certain**:  
 ```
@@ -133,7 +152,7 @@ Xmod is the class of any other types of modifiers including adverbials.
 ```    
    **- Emphasis** :  
 ```
-  very, clearly, really, definitely, absolutely
+  very, clearly, really, definitely, absolutely, pretty
 ```   
 2.	Focus-sensitive: 
 ```
@@ -147,6 +166,7 @@ fortunately, legally, frankly speaking, clauses beginning with given that, despi
 Prepositions that have thematic role. 
 ```
 walk on two legs, have a hat on, a tail coming out 
+> Here 'on' and 'out' are Cases.
 ```
 
 
@@ -157,7 +177,7 @@ We define the following attribute types : Abstract, Disfluency, External, Opinio
 ```
 something, one
 ```
-If we got information about this abstract mention from its context, for example
+- If we got information about this abstract mention from its context, for example
 ```
 One elephant is riding the tricycle and the other one is walking behind him.
 > Here 'one' is annotated as the known mention 'Elephant_R', with attribute 'abstract'.
@@ -168,18 +188,36 @@ If we don't get any information about the mention from the context, for example
 The clown is holding something in the hand.
 > Here 'something' is annotated as an unknown mention.
 ```
+
+- Colors can also have abstract attribute when it refers to the clothes, for instance
+```
+the elephant with blue on
+> Here 'blue' has attribute 'Abstract'. 
+```
+
+
 #### 2.2 Disfluency
 Fragments of words, interruptions, incomplete sentences, filters and discourse markers. 
 ```
 ...and both of them, one of them got stripes and has a necktie on
 > 'both of them' is disfluency.
+
+One clown is carrying a flag or maybe two flags...
+> the front 'flag' is disfluency. 
 ```
 
 
 #### 2.3 Opinion
-1. subjective adjectives 
+1. subjective adjectives or nouns
+
+Examples of adjectives: 
 ```
-fancy, bored, beautiful, normal
+fancy, bored, beautiful, normal looking, different
+```
+Examples of nouns:
+```
+the baby elephant, the father elephant
+> Here 'baby' and 'father' are 'Opinion' Nmods.
 ```
 2. descriptive clauses that contain the word "like" 
 ```
@@ -195,7 +233,8 @@ In my experience, as far as i can see, it is obvious that
 #### 2.4 Possessive
 Show ownership by adding an apostrophe, an 's' or both.
 ```
-the elephant's, its
+The left elephant wears a beanie on his head.
+> Here 'his' is annotated as the known mention 'Elephant_L' and has attribute 'possesive'.
 ```
 #### 2.5 Subset
 ```
@@ -214,6 +253,10 @@ Ex: I see the elephant riding a bike.
 refers to indirect object of a verb  
 Ex: I gave him a book.   
 <img src=https://user-images.githubusercontent.com/35633621/46169532-69f7c400-c269-11e8-9c18-744c7ab2f542.png alt="alt text" width="260" height="50">
+
+* Handling sentences in passive voice. 
+Ex: The photo was taken in early 1900s.
+
 
 
 ### 3.2 Thematic Roles
@@ -272,21 +315,17 @@ Example:
 ## Chapter 4 Special Cases Handling
 - Treat compound nouns as a single mention  
 ```
-Polka dot, Straw hat, face makeup 
+polka dot, straw hat, face makeup 
 ```
   
 - We do not annotate anything that is not related to the picture.     
 - When a sentence appears as imcomplete, we only annotate the 'Mention' in the sentence. 
 - Way of handling relative clauses, adverbial clauses:  
 	We diregard the connection words (which, that), treat the clause as a separate sentence with the same object, and annotate the relations as usual. 
-	
 	```
 	I was standing there, waiting for the bus.
 	```
 
-	```
-	I met the man whom I talked to yesterday. 
-	```
 
 - Diregard anything after 'I don't know..', 'I cannot describe...'
 
