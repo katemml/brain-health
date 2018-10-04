@@ -319,9 +319,9 @@ Example:
 
 ## Chapter 4 Special Cases Handling
 - Treat compound nouns as a single mention  
-```
-polka dot, straw hat, face makeup 
-```
+    ```
+    polka dot, straw hat, face makeup 
+    ```
   
 - We do not annotate anything that is not related to the picture.     
 - When a sentence appears as imcomplete, we only annotate the 'Mention' in the sentence. 
