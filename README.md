@@ -334,6 +334,10 @@ polka dot, straw hat, face makeup
 
 - Diregard anything after 'I don't know..', 'I cannot describe...'
 
-
+- Annotations can be made across multiple sentences.
+For example:
+'''
+The clown is in the center of the picture. Looks both agitated and bored at the same time.
+> 'agitated' and 'bored' in the second sentence are attributes of the 'clown' in the first sentence.
 
 
