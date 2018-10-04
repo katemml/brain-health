@@ -96,7 +96,7 @@ Example:
 hats with feathers on them 
 > Here 'hats' and 'them' are coreferenced. 
 ```   
-
+Nouns like 'background, lefthand side, front' are not considered as mentions. 
 
 
 ### 1.2 Nmod
@@ -167,6 +167,11 @@ Prepositions that have thematic role.
 ```
 walk on two legs, have a hat on, a tail coming out 
 > Here 'on' and 'out' are Cases.
+```
+
+Other examples of Xmod:   
+```
+in the background, on the lefthand side, in front, at the back
 ```
 
 
