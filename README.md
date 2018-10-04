@@ -206,6 +206,8 @@ One clown is carrying a flag or maybe two flags...
 > the front 'flag' is disfluency. 
 ```
 
+Words like 'Um','ah','like' are not considered as disfluency. Only the meaningful mentions are considered.
+
 
 #### 2.3 Opinion
 1. subjective adjectives or nouns
