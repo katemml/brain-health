@@ -346,3 +346,9 @@ The clown is in the center of the picture. Looks both agitated and bored at the 
 > 'agitated' and 'bored' in the second sentence are attributes of the 'clown' in the first sentence.
 ```
 
+- When phrases like 'it says...' appear, we annotate them as LOC relation. For example:
+```
+The sign says circus procession.
+> 'sign' is location of 'circus procession'
+```
+
