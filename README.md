@@ -292,7 +292,7 @@ Explains the motivation for some action. Clauses beginning with 'in order to' an
 Usually between Xmod and predicates. 
 
 Examples in this section:  
-<img src=https://user-images.githubusercontent.com/35633621/46171112-9dd4e880-c26d-11e8-8df8-8419ead136e9.png alt="alt text" width="330" height="480">
+<img src=https://user-images.githubusercontent.com/35633621/46558722-12d29e80-c8bc-11e8-92fa-a647125cb9d9.png alt="alt text" width="330" height="480">
 
 ### 3.3 Noun   
 Nmod- Mention  
