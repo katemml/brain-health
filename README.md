@@ -350,5 +350,8 @@ The clown is in the center of the picture. Looks both agitated and bored at the 
 ```
 The sign says circus procession.
 > 'sign' is location of 'circus procession'
+
 ```
+
+- 'Having a hard time' is one predicate. 
 
