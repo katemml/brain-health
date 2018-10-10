@@ -137,6 +137,7 @@ Examples of normal predicates:
 have, hold, carry, dressed up, stand 
 ```
 
+! Note, verbs like 'copyrighted' is not annotated as predicate. Only predicates that describe the mentions in the picture are annotated.  
 ### 1.4 Xmod
 Xmod is the class of any other types of modifiers including adverbials. 
 
@@ -305,6 +306,11 @@ Ex: two women
 Examples in this section:  
 <img src=https://user-images.githubusercontent.com/35633621/46169517-5fd5c580-c269-11e8-98fd-dd576a118be6.png alt="alt text" width="320" height="90">
 
+Another example,
+```
+the elepahnt is walking with a cane.
+> Here 'cane' is attribute of 'elephant'.
+```
 
 #### 3.3.2 'Coreference' relation
 Coreference occurs between several mentions when they all refer to the same object. 
