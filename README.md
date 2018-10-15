@@ -42,7 +42,8 @@ agent, theme, dative
 3.2.4 TMP  
 3.2.5 CAU  
 3.2.6 MNR  
-3.2.7 PRP    
+3.2.7 PRP
+3.2.8 VPC
 **3.3 Noun**   
 attribute   
 **3.4 Discourse**   
@@ -294,6 +295,15 @@ Usually between Xmod and predicates.
 
 Examples in this section:  
 <img src=https://user-images.githubusercontent.com/35633621/46558722-12d29e80-c8bc-11e8-92fa-a647125cb9d9.png alt="alt text" width="330" height="480">
+
+### 3.2.8 (VPC)Verb Partial Construction
+Between Predicates and cases where the predicate and the case together can construct a new verb that has a different meaning to the single word predicate.
+Example: 
+```
+The elephant has a red shirt on. 
+-> Here 'have' has a 'VPC' relation to 'on'.
+```
+
 
 ### 3.3 Noun   
 Nmod- Mention  
